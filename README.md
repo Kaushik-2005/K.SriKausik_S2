@@ -44,10 +44,31 @@ This task demonstrates the process of loading a dataset, selecting a target colu
  - After dropping it is assigned to new variable and the dataframe with the remaining attributes is assigned into another new variable.<br>
 
  # Test Train Split :
+ - Splitting of the data is done using a python library "sklearn" also known as Scikit-Learn. It is used to implement machiene learning models and statistical modelling.<br>
  - **Purpose :** When building a machine learning model, we need to know how it performs on new, unseen data. To do this, we split our available dataset into two parts:
                 &emsp;&emsp;&emsp;1)Training set.<br>
                 &emsp;&emsp;&emsp;2)Testing set.<br>
 
  - **Training Set :** The model is trained using the training set. It learns patterns and relationships between the input features and the corresponding target variable in order to make accurate predictions.<br>
  - **Testing Set :**Once the model is trained, it is evaluated using the testing set. The model makes predictions on the testing set based on what it learned during training. The predicted values are compared to the actual target values in the testing set to assess the model's performance.<br>
- - 
+ - **Performance Assessment :** Various evaluation metrics such as accuracy, precision, recall, or F1 score are used to measure how well the model performs on the testing set. These metrics provide insights into the model's ability to generalize and make accurate predictions on unseen data.<br>
+ - By splitting the dataset into training and testing sets, the test-train split helps in estimating the model's performance on new, unseen data and assists in identifying any issues such as overfitting or underfitting before deploying the model in real-world scenarios.<br>
+
+# Model Creation :
+ - **Selecting the Model :** We can choose different types of machine learning model based on the problem. There are various models, such as Linear Regression, Random Forests, Support Venture Machines(SVM), etc..<br> 
+ - **Data Preprocessing :** It is the process of preparing the raw data before feeding it into a machine learning model. It involves handling missing values, encoding categorical variables, and scaling numerical features. The goal is to clean and transform the data into a suitable format that the model can understand and learn from effectively.<br>
+ - **Model Evaluation :** It is the process of assessing how well a machine learning model performs on unseen data. It involves comparing the model's predictions to the actual values or labels and calculating evaluation metrics such as accuracy, precision, recall, or mean squared error. The goal is to understand how accurately the model can make predictions and to determine its effectiveness in solving the problem at hand.<br>
+ - I used four different classifiers :
+                &emsp;&emsp;&emsp;1) Random Forest Classifier.<br>
+                &emsp;&emsp;&emsp;2) Logistic Regression Classifier.<br>
+                &emsp;&emsp;&emsp;3) Support Vector Classifier.<br>
+                &emsp;&emsp;&emsp;4)k-Nearesy Neighbors.<br>
+
+# Model Evaluation:
+
+ - After creating the model with four different classifiers. Each classifier have different accuracy in predicting the value.
+ - The accuracy scores for differant classifiers are :
+                &emsp;&emsp;&emsp;1) Random Forest Classifier = 85.185%<br>
+                &emsp;&emsp;&emsp;2) Logistic Regression Classifier = 92.592%<br>
+                &emsp;&emsp;&emsp;3) Support Vector Classifier =  96.296%<br>
+                &emsp;&emsp;&emsp;4)k-Nearest Neighbors = 96.296%<br>
