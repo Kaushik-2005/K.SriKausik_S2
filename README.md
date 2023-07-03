@@ -2,7 +2,7 @@
 
 This task demonstrates the process of loading a dataset, selecting a target column, splitting it into training and testing sets, and using various classifiers to create a machine learning model for predicting the target.
 
-**DataSet :**
+ # DataSet :
 
  - The given dataset was [heart-disease-prediction](https://www.kaggle.com/datasets/ritwikb3/heart-disease-statlog).
  - This database contains 13 attributes and a target variable. It has 8 nominal values and 5 numeric values. The detailed description of all these features are as follows:
@@ -34,4 +34,20 @@ This task demonstrates the process of loading a dataset, selecting a target colu
                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2: fixed defect (no blood flow in some part of the heart) <br>
                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;3: reversible defect (a blood flow is observedbut it is not normal)(nominal)<br>
         &emsp;&emsp;&emsp;14)target: It is the target variable which we have to predict 1 means patient is suffering from heart disease and 0 means patient is normal.<br>
- - Target should be predicted by the model.<br>
+ - Each attribute describes the medical condition of an individual.<br>
+ - "Target" attribute tells us whether the individual is suffering or not suffering from heart disease.<br>
+
+# Aim of the model :
+ - The model should be able to predict whether an individual is suffering or not suffering from heart disease by analyzing the first 13 attributes.<br>
+ - "df.drop" function helps in dropping a column in the dataset.<br>
+ - We need to drop the "Target" attribute from the dataframe hence we can train our model to predict it after training the model.<br>
+ - After dropping it is assigned to new variable and the dataframe with the remaining attributes is assigned into another new variable.<br>
+
+ # Test Train Split :
+ - **Purpose :** When building a machine learning model, we need to know how it performs on new, unseen data. To do this, we split our available dataset into two parts:
+                &emsp;&emsp;&emsp;1)Training set.<br>
+                &emsp;&emsp;&emsp;2)Testing set.<br>
+
+ - **Training Set :** The model is trained using the training set. It learns patterns and relationships between the input features and the corresponding target variable in order to make accurate predictions.<br>
+ - **Testing Set :**Once the model is trained, it is evaluated using the testing set. The model makes predictions on the testing set based on what it learned during training. The predicted values are compared to the actual target values in the testing set to assess the model's performance.<br>
+ - 
