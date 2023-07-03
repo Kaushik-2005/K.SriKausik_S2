@@ -58,7 +58,7 @@ This task demonstrates the process of loading a dataset, selecting a target colu
  - **Selecting the Model :** We can choose different types of machine learning model based on the problem. There are various models, such as Linear Regression, Random Forests, Support Venture Machines(SVM), etc..<br> 
  - **Data Preprocessing :** It is the process of preparing the raw data before feeding it into a machine learning model. It involves handling missing values, encoding categorical variables, and scaling numerical features. The goal is to clean and transform the data into a suitable format that the model can understand and learn from effectively.<br>
  - **Model Evaluation :** It is the process of assessing how well a machine learning model performs on unseen data. It involves comparing the model's predictions to the actual values or labels and calculating evaluation metrics such as accuracy, precision, recall, or mean squared error. The goal is to understand how accurately the model can make predictions and to determine its effectiveness in solving the problem at hand.<br>
- - I used four different classifiers :
+ - I used four different classifiers :<br>
                 &emsp;&emsp;&emsp;1) Random Forest Classifier.<br>
                 &emsp;&emsp;&emsp;2) Logistic Regression Classifier.<br>
                 &emsp;&emsp;&emsp;3) Support Vector Classifier.<br>
@@ -67,7 +67,7 @@ This task demonstrates the process of loading a dataset, selecting a target colu
 # Model Evaluation:
 
  - After creating the model with four different classifiers. Each classifier have different accuracy in predicting the value.
- - The accuracy scores for differant classifiers are :
+ - The accuracy scores for differant classifiers are :<br>
                 &emsp;&emsp;&emsp;1) Random Forest Classifier = 85.185%<br>
                 &emsp;&emsp;&emsp;2) Logistic Regression Classifier = 92.592%<br>
                 &emsp;&emsp;&emsp;3) Support Vector Classifier =  96.296%<br>
