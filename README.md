@@ -5,7 +5,7 @@ This task demonstrates the process of loading a dataset, selecting a target colu
  # DataSet :
 
  - The given dataset was [heart-disease-prediction](https://www.kaggle.com/datasets/ritwikb3/heart-disease-statlog).
- - This database contains 13 attributes and a target variable. It has 8 nominal values and 5 numeric values. The detailed description of all these features are as follows:
+ - This database contains 13 attributes and a target variable. It has 8 nominal values and 5 numeric values. The detailed description of all these features are as follows:<br>
         &emsp;&emsp;&emsp;1)Age: Patients Age in years (Numeric) <br>
         &emsp;&emsp;&emsp;2)Sex: Gender (Male : 1; Female : 0) (Nominal)<br>
         &emsp;&emsp;&emsp;3)cp: Type of chest pain experienced by patient.This term categorized into 4 category.<br>
@@ -45,7 +45,7 @@ This task demonstrates the process of loading a dataset, selecting a target colu
 
  # Test Train Split :
  - Splitting of the data is done using a python library "sklearn" also known as Scikit-Learn. It is used to implement machiene learning models and statistical modelling.<br>
- - **Purpose :** When building a machine learning model, we need to know how it performs on new, unseen data. To do this, we split our available dataset into two parts:
+ - **Purpose :** When building a machine learning model, we need to know how it performs on new, unseen data. To do this, we split our available dataset into two parts:<br>
                 &emsp;&emsp;&emsp;1)Training set.<br>
                 &emsp;&emsp;&emsp;2)Testing set.<br>
 
