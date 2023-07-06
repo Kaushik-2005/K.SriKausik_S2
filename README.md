@@ -50,7 +50,7 @@ This task demonstrates the process of loading a dataset, selecting a target colu
                 &emsp;&emsp;&emsp;2)Testing set.<br>
 
  - **Training Set :** The model is trained using the training set. It learns patterns and relationships between the input features and the corresponding target variable in order to make accurate predictions.<br>
- - **Testing Set :**Once the model is trained, it is evaluated using the testing set. The model makes predictions on the testing set based on what it learned during training. The predicted values are compared to the actual target values in the testing set to assess the model's performance.<br>
+ - **Testing Set :** Once the model is trained, it is evaluated using the testing set. The model makes predictions on the testing set based on what it learned during training. The predicted values are compared to the actual target values in the testing set to assess the model's performance.<br>
  - **Performance Assessment :** Various evaluation metrics such as accuracy, precision, recall, or F1 score are used to measure how well the model performs on the testing set. These metrics provide insights into the model's ability to generalize and make accurate predictions on unseen data.<br>
  - By splitting the dataset into training and testing sets, the test-train split helps in estimating the model's performance on new, unseen data and assists in identifying any issues such as overfitting or underfitting before deploying the model in real-world scenarios.<br>
 
