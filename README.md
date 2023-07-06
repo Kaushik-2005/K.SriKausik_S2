@@ -72,3 +72,17 @@ This task demonstrates the process of loading a dataset, selecting a target colu
                 &emsp;&emsp;&emsp;2) Logistic Regression Classifier = 92.592%<br>
                 &emsp;&emsp;&emsp;3) Support Vector Classifier =  96.296%<br>
                 &emsp;&emsp;&emsp;4)k-Nearest Neighbors = 96.296%<br>
+
+# Graphs:
+
+ - I used matplotlib.pyplot and seasborn library for plotting graphs.
+ - I represented no.of indidividuals with and without heart disease using a pie-chart.
+ -  Few features like Sex, Chest pain have differenyt types.
+ - I sepearted them based on their values.
+ - After separating I plotted a bar graph for representing the number of individuals with those values.
+ - I plotted a histogram for showing the age on x-aixs and no.of individuals on y-axis and gave the hue as "target". From this graph we can see individuals of what age have more chance of geting heart disease.
+ - I plotted a scatter plot with "BP" on x-aixs and "Cholesterol" on y-axis with "target" as my hue. From this plot we can the  relationship between Cholesterol and BP of those who are suffering or not suffering with heart disease.
+ - I plotted a scatter plot with "BP" on x-aixs and "age" on y-axis with "target" as my hue. From this plot we can the  relationship between age and BP of those who are suffering or not suffering with heart disease.
+ - I plotted a scatter plot with "Cholesterol" on x-aixs and "age" on y-axis with "target" as my hue. From this plot we can the  relationship between age and Cholesterol of those who are suffering or not suffering with heart disease.
+ - I plotted a histogram along with kde(Kernel Density Estimation) to indicate the relationship of age and BP.
+ - I plotted a histogram along with kde(Kernel Density Estimation) to indicate the relationship of age and Cholesterol.
